@@ -1,0 +1,17 @@
+{
+    "Lua.diagnostics.globals": [
+        "game",
+        "mouse",
+        "plr",
+        "noclip",
+        "Enum",
+        "workspace",
+        "firetouchinterest",
+        "wait",
+        "playerHead",
+        "Color3"
+    ],
+    "Lua.diagnostics.disable": [
+        "deprecated"
+    ]
+}

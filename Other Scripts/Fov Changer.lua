@@ -1,0 +1,1 @@
+game.workspace.CurrentCamera.FeildOfView = 90 
