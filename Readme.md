@@ -55,7 +55,7 @@ if b == false then -- if it b is false then it will print Hello World
 
 local name = game.Players.LocalPlayer.Name -- the name of the localplayer (only for roblox games!)
 
-if name == "idk" then -- if the name is idk it will print whitelisted or sum thing, you can use this as an beginner whitelist!
+if name == "idk" then -- if the name from the roblox player  is idk it will print whitelisted or sum thing, you can use this as an beginner whitelist!
   print("whitelisted or sum things")
 end
 ```
