@@ -104,12 +104,24 @@ end)
 -- using TweenService with buttons or uis (for roblox games only i think and is used for animations!)
 local frame = script.Parent.Parent.framenamehere
 
-button.MouseButton1Down:Connect(function()
-	frame:TweenSize(UDim2()) -- this will change the Frame size with an animation, here is how a size should look like: {0, 506},{0, 234} you can keep the {} if you want but -- you don't have to! (how do I get the frame size?:)
+button.MouseButton1Down:Connect(function() 
+	frame:TweenPosition(UDim2()) -- this will change the Frame size with an animation, here is how a Position should look like: {0.301, 0},{0.207, 0} you can keep the {} if you want but  you don't you to
+	-- how to get the Position:
+
+	--[[
+	StarterGui<URScreenUi<UrFrame<properties<Position
+	--]]
+end)
+	-- you don't have to! (how do I get the frame size?:)
 	--[[
 	StarterGui<URScreenUi<UrFrame<properties<Size
 	--]]
+button.MouseButton1Down:Connect(function()
+	frame:TweenSize(UDim2()) -- this will change the Frame Position with an animation, here is how a size should look like: {0, 506},{0, 234} you can keep the {} if you want but 
 end)
+--------------------------------------------------------------------------------------------------------------------------------------
+-- just animating the frame without any button
+frame:TweenPosition(UDim2()) / frame:TweenSize(UDim2())
 ```
 
 
