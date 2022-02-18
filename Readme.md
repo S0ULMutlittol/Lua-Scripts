@@ -66,7 +66,7 @@ while true do
   wait() -- do not remove this or else your game will crash
 end
 ```
-## getgenv (only used for exploits)
+## getgenv and _G. (only used for exploits)
 ```lua
 -- this for roblox games (not main lua)
 getgenv().c = true;
@@ -82,11 +82,11 @@ end
 --using _G.
 _G.c = true;
 
-while _G..c = true do -- you can use this to loop an function (you can stop it by changing getgenv().c to false!
+while _G..c = true do -- you can use this to loop an function (you can stop it by changing _G.c to false!
   print("true")
   wait()
 end
-if _G.c == false then -- if getgenv().c = false it will print false
+if _G.c == false then -- if _G.c = false it will print false
   print("false")
 end
 ```
