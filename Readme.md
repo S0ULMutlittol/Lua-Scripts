@@ -11,7 +11,7 @@ print("you can print anything here")
 ## variables
 ```lua
 local c  = "" -- the name can be anything (e.g local egg = "bla bla bla")
-local d = can be a game id too or sum things!
+local d = can be a game id too or sum things! -- if you try to run this it will give you an error so add numbers in there or sum things
 local function c() -- you can make functions too!
   print("b")
 end)
