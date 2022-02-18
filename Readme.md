@@ -12,15 +12,22 @@ print("you can print anything here")
 ```lua
 local c  = "" -- the name can be anything (e.g local egg = "bla bla bla")
 local d = can be a game id too or sum things!
+local function c() -- you can make functions too!
+  print("b")
+end)
 ```
-## printing variables
+## printing/using variables
 ```lua
 local d = "c"
 local f = 2
 local c = 3
+local function c() -- you can make functions too!(you can change the c to what you want)
+  print("b")
+end)
 
 print(d) -- prints whats in the string in the variable in d
 print(f + c) -- does math for you lol (2 + 3)
+c() -- runs the c function(if you set it to anything other you need to change it then!)
 ```
 ## tables
 ```lua 
@@ -65,4 +72,24 @@ end
 if getgenv().c == false then -- if getgenv().c = false it will print false
   print("false")
 end
+```
+
+## part touched founction
+```lua
+local part = script.Parent.Parent.partnamehere -- this is if you script is in workspace
+local part_other = game.Workspace.partnamehere -- if you use a script that is outside of Workspace
+
+part.Touched:Connect(function() -- connects a function when the part is touched!
+	wait(1) -- only added  the wait so it won't spamm Hello World but you can remove it!
+	print("Hello World!") 
+end)
+```
+## scripts for ui buttons
+```lua
+local button = script.Parent.Parent.button name here -- button
+local button_2 = script.Parent.Parent.framenamehere.buttonamehere -- if this button does not show up use this!
+
+button.MouseButton1Down:Connect(function() -- connects a function when the button is clicked
+	print("ok") -- if the button is clicked it will print ok
+end)
 ```
