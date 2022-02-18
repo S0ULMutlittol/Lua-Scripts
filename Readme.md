@@ -100,4 +100,16 @@ local button_2 = script.Parent.Parent.framenamehere.buttonamehere -- if this but
 button.MouseButton1Down:Connect(function() -- connects a function when the button is clicked
 	print("ok") -- if the button is clicked it will print ok
 end)
+-------------------------------------------------------------------------------------------------------------------------
+-- using TweenService with buttons or uis (for roblox games only i think and is used for animations!)
+local frame = script.Parent.Parent.framenamehere
+
+button.MouseButton1Down:Connect(function()
+	frame:TweenSize(UDim2()) -- this will change the Frame size with an animation, here is how a size should look like: {0, 506},{0, 234} you can keep the {} if you want but -- you don't have to! (how do I get the frame size?:)
+	--[[
+	StarterGui<URScreenUi<UrFrame<properties<Size
+	--]]
+end)
 ```
+
+
