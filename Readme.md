@@ -1,6 +1,11 @@
+## lua explanations by SoloDev
+```lua
+print("thanks for checking out my profile")
+```
+
 ## printing
 ```lua
---print
+
 print("you can print anything here")
 ```
 ## variables
