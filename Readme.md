@@ -37,6 +37,12 @@ local table = {
 }
 
 print(table[1]) -- prints table_1 and if you do print(table[2]), it will print table_2
+--------------------------------------------------------------------------------------------
+
+mytable = {}
+
+
+mytable[1]= "Lua" -- sets the first string of the table to Lua
 ```
 ## if statements
 ```lua
