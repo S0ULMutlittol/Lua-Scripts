@@ -68,7 +68,7 @@ end
 ```
 ## getgenv (only used for exploits)
 ```lua
-
+this for roblox games (not main lua)
 getgenv().c = true;
 
 while getgenv().c = true do -- you can use this to loop an function (you can stop it by changing getgenv().c to false!
@@ -80,8 +80,9 @@ if getgenv().c == false then -- if getgenv().c = false it will print false
 end
 ```
 
-## part touched founction
+## part touched founction 
 ```lua
+-- this for roblox games (not main lua)
 local part = script.Parent.Parent.partnamehere -- this is if you script is in workspace
 local part_other = game.Workspace.partnamehere -- if you use a script that is outside of Workspace
 
@@ -92,6 +93,7 @@ end)
 ```
 ## scripts for ui buttons
 ```lua
+this for roblox games (not main lua)
 local button = script.Parent.Parent.button name here -- button
 local button_2 = script.Parent.Parent.framenamehere.buttonamehere -- if this button does not show up use this!
 
