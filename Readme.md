@@ -101,7 +101,7 @@ button.MouseButton1Down:Connect(function() -- connects a function when the butto
 	print("ok") -- if the button is clicked it will print ok
 end)
 -------------------------------------------------------------------------------------------------------------------------
--- using TweenService with buttons or uis (for roblox games only i think and is used for animations!)
+-- using TweenService with buttons or uis (for roblox games only i think and its used for animations!)
 local frame = script.Parent.Parent.framenamehere
 
 button.MouseButton1Down:Connect(function() 
