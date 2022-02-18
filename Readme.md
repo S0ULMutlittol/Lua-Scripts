@@ -145,3 +145,4 @@ button.MouseButton1Down:Connect(function() -- uses an button (dont add this scri
 	print(box.Text) -- prints the text that has been inputted in the TextBox 
 end)
 ```
+
