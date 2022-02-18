@@ -105,7 +105,7 @@ end)
 local frame = script.Parent.Parent.framenamehere
 
 button.MouseButton1Down:Connect(function() 
-	frame:TweenPosition(UDim2()) -- this will change the Frame size with an animation, here is how a Position should look like: {0.301, 0},{0.207, 0} you can keep the {} if you want but  you don't you to
+	frame:TweenPosition(UDim2()) -- this will change the Frame size with an animation, here is how a Position should look like: {0.301, 0},{0.207, 0} you can keep the {} if you want but  you don' have to
 	-- how to get the Position:
 
 	--[[
