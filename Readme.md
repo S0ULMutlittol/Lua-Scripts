@@ -119,6 +119,7 @@ end)
 button.MouseButton1Down:Connect(function()
 	frame:TweenSize(UDim2()) -- this will change the Size Frame  with an animation, here is how a size should look like: {0, 506},{0, 234} you can keep the {} if you want but you don't have to
 end)
+-- you can use TweenSizeAndPosition to change both at the same time! (first the size then the position,should look like this: {0, 506},{0, 234},{0.301, 0},{0.207, 0})
 --------------------------------------------------------------------------------------------------------------------------------------
 -- just animating the frame without any button
 frame:TweenPosition(UDim2()) / frame:TweenSize(UDim2())
