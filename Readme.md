@@ -78,6 +78,17 @@ end
 if getgenv().c == false then -- if getgenv().c = false it will print false
   print("false")
 end
+-------------------------------------------------------------------------------------------
+--using _G.
+_G.c = true;
+
+while _G..c = true do -- you can use this to loop an function (you can stop it by changing getgenv().c to false!
+  print("true")
+  wait()
+end
+if _G.c == false then -- if getgenv().c = false it will print false
+  print("false")
+end
 ```
 
 ## part touched founction 
