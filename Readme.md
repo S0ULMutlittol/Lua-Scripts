@@ -124,8 +124,9 @@ end)
 -- just animating the frame without any button
 frame:TweenPosition(UDim2()) / frame:TweenSize(UDim2())
 ```
-## using textbox
-```
+## using textboxex
+```lua
+-- this for roblox games (not main lua)
 local box = script.Parent.Parent.textbox name here
 local button = script.Parent.Parent.button name here
 
