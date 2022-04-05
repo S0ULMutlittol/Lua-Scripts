@@ -140,9 +140,16 @@ frame:TweenPosition(UDim2()) / frame:TweenSize(UDim2())
 -- this for roblox games (not main lua)
 local box = script.Parent.Parent.textbox name here
 local button = script.Parent.Parent.button name here
-
+-------------------------------------------------
 button.MouseButton1Down:Connect(function() -- uses an button (dont add this script to your textbox)
 	print(box.Text) -- prints the text that has been inputted in the TextBox 
+end)
+-----------------------------------------------------------
+box.Focused:Connect(function() -- if the textbox is clicked
+print("Hi")
+end)
+box.FocusLost:Connect(function() -- if you click anywhere outside the textbox
+print('bye')
 end)
 ```
 
